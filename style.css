@@ -1,0 +1,46 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  letter-spacing: 2px;
+  font-size: 15pt;
+  color: #FFF;
+}
+#knoppen {
+  width: 300px;
+  margin: 150px auto 0 auto;
+}
+.resultaat {
+  width: 285px;
+  height: 80px;
+  border: 1px solid grey;
+  float: left;
+  line-height: 40px;  
+  background-color: #696769; 
+  border-radius: 15%;
+}
+.resultaat  p {
+  margin-left: 10px;
+}
+.clear, span {
+  height: 40px;
+  border: 1px solid grey;
+  text-align: center;
+  line-height: 40px;
+  cursor: pointer;
+  border-radius: 15%;
+}
+.clear {
+  width: 95px;
+  float: left;
+  background-color: #FF0000;
+}
+span {
+  float: left;
+  width: 95px;
+  background-color: #113B54;
+  border-radius: 15%;
+}
+.eval {
+	background-color: #00B000;
+}
